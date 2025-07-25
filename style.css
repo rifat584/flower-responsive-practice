@@ -273,12 +273,24 @@ align-items: center;
     grid-template-columns: repeat(2, 1fr)
   }
 
+  .plant-section-heading {
+    width: 85%;
+  }
+
   .lover {
     flex-direction: column;
   }
 
   .lover-content {
     align-items: flex-start;
+  }
+
+  .lover-content h3 {
+    font-size: 2rem;
+  }
+  
+  .lover-content p {
+    font-size: 1rem;
   }
 
   .lover-content ul {
