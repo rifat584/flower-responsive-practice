@@ -204,6 +204,7 @@ align-items: center;
   gap: 1rem;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .lover-content h3 {
@@ -222,9 +223,16 @@ align-items: center;
   color: var(--secondary-color);
 }
 
+/* Badge */
 
-
-
+.lover-content img{
+  top: 0;
+  left: 0;
+  width: 18rem;
+  height: auto;
+  position: absolute;
+  transform: translate(-16rem, -6rem);
+}
 
 
 
@@ -288,14 +296,22 @@ align-items: center;
   .lover-content h3 {
     font-size: 2rem;
   }
-  
-  .lover-content p {
+
+  .lover-content ul {
+    
+    padding-left: 1.5rem;
+  }
+
+  .lover-content ul li{
     font-size: 1rem;
   }
 
-  .lover-content ul {
-    padding-left: 1.5rem;
+  .badge {
+    display: none;
   }
+
+
+
 
 
 
