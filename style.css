@@ -124,6 +124,13 @@ align-items: center;
     padding: 1rem;
   }
 
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
 .nav-bar {
   padding: 1rem;
   margin-top: 2rem;
@@ -134,7 +141,7 @@ align-items: center;
 }
 
 .link-4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /* Hero */
