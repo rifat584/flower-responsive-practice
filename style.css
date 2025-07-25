@@ -109,9 +109,74 @@ align-items: center;
 
 /* Our Plants Section  */
 
+.our-plants {
+  margin-top: 8rem;
+  
+}
+
+.product-showcase {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1rem;
+}
+
+.plant-section-heading {
+  text-align: center;
+  /* optional */
+  width: 70%;
+  margin: 0 auto 3rem auto;
+}
+
+.plant-section-heading h3 {
+  font-size: 3rem;
+}
+.plant-section-heading h3 span {
+  color: var(--primary-color);
+}
+
+.plant-section-heading p {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  margin: 1rem auto;
+}
 
 
+/* Plant Showcase Section */
 
+.plant {
+
+  flex: 1;
+  text-align: center;
+}
+
+.plant img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.plant-des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.plant-name ,.plant-price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.atc-btn {
+  background-color: var(--primary-color);
+  color: white;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem ;
+  padding: 0.75rem 1rem;
+}
 
 
 
@@ -156,7 +221,9 @@ align-items: center;
     font-size: 1rem;
   }
 
-
+  .product-showcase {
+    grid-template-columns: repeat(2, 1fr)
+  }
 
 
 }
