@@ -108,3 +108,42 @@ align-items: center;
 }
 
 /* Our Plants Section  */
+
+
+
+
+
+
+
+
+
+/* Mobile Responsive */
+
+@media (max-width:768px) {
+  main {
+    padding: 1rem;
+  }
+
+.nav-bar {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+ .link-1, .link-2, .link-3 {
+  display: none;
+}
+
+.link-4 {
+  font-size: 1.5rem;
+}
+
+/* Hero */
+  .hero {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .hero-content {
+    padding: 1rem;
+  }
+}
