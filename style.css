@@ -90,11 +90,11 @@ justify-content: center;
 align-items: center;
 }
 
-.hero-content h3 {
+.hero-content h1 {
   font-size: 4rem;
   font-weight: 700;
 }
-.hero-content h3 span {
+.hero-content h1 span {
  color: var(--primary-color);
 }
 
@@ -124,13 +124,6 @@ align-items: center;
     padding: 1rem;
   }
 
-  h1 {
-    font-size: 2rem;
-  }
-  p {
-    font-size: 1rem;
-  }
-
 .nav-bar {
   padding: 1rem;
   margin-top: 2rem;
@@ -152,5 +145,18 @@ align-items: center;
 
   .hero-content {
     padding: 1rem;
+    align-items: flex-start;
   }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+
+
+
 }
