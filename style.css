@@ -394,7 +394,7 @@ align-items: center;
     font-size: 1rem;
   }
 
-  .badge {
+  .lover-content img {
     display: none;
   }
 
@@ -406,7 +406,17 @@ align-items: center;
   flex-direction: column;
 }
 
+.deal-title h3 {
+  font-size: 2rem;
+}
 
+.deal-title p {
+  font-size: 1rem;
+}
+
+.overlay h3 {
+    font-size: 1.5rem;
+}
 
 
 }
