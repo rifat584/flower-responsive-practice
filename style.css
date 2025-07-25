@@ -1,0 +1,110 @@
+
+/* Global Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-s {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(245, 248, 255);
+}
+
+/* Shared Style */
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.primary-font {
+  font-family: "Inter", sans-serif;
+
+}
+
+
+.secondary-font {
+  font-family: "Noto Serif", serif;
+
+}
+
+:root {
+  --primary-color: rgb(233, 90, 8);
+  --secondary-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* NavBar Design */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+}
+
+.link-1 {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+.link-4 {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.link-2, .link-3 {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* NavBar End */
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  margin-top: 9rem;
+}
+
+.hero-content {
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+justify-content: center;
+align-items: center;
+}
+
+.hero-content h3 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.hero-content h3 span {
+ color: var(--primary-color);
+}
+
+.hero-content p {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+/* Our Plants Section  */
